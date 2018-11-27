@@ -1,0 +1,12 @@
+C:\Users\Jhohan\Documents\Sifinet\C#\Sifinet\main\main\bin\Debug\main.exe.config
+C:\Users\Jhohan\Documents\Sifinet\C#\Sifinet\main\main\bin\Debug\main.exe
+C:\Users\Jhohan\Documents\Sifinet\C#\Sifinet\main\main\bin\Debug\main.pdb
+C:\Users\Jhohan\Documents\Sifinet\C#\Sifinet\main\main\obj\Debug\main.csprojAssemblyReference.cache
+C:\Users\Jhohan\Documents\Sifinet\C#\Sifinet\main\main\obj\Debug\main.Form1.resources
+C:\Users\Jhohan\Documents\Sifinet\C#\Sifinet\main\main\obj\Debug\main.Properties.Resources.resources
+C:\Users\Jhohan\Documents\Sifinet\C#\Sifinet\main\main\obj\Debug\main.csproj.GenerateResource.cache
+C:\Users\Jhohan\Documents\Sifinet\C#\Sifinet\main\main\obj\Debug\main.csproj.CoreCompileInputs.cache
+C:\Users\Jhohan\Documents\Sifinet\C#\Sifinet\main\main\obj\Debug\main.exe
+C:\Users\Jhohan\Documents\Sifinet\C#\Sifinet\main\main\obj\Debug\main.pdb
+C:\Users\Jhohan\Documents\Sifinet\C#\Sifinet\main\main\obj\Debug\main.Vistas.Productos.resources
+C:\Users\Jhohan\Documents\Sifinet\C#\Sifinet\main\main\obj\Debug\main.Vistas.Categorias.resources
