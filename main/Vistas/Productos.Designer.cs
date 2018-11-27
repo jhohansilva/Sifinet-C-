@@ -29,6 +29,10 @@
 		private void InitializeComponent()
 		{
 			this.label1 = new System.Windows.Forms.Label();
+			this.dataGridView1 = new System.Windows.Forms.DataGridView();
+			this.idProductosColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.descripProductosColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -42,14 +46,41 @@
 			this.label1.Text = "Gestión de productos";
 			this.label1.Click += new System.EventHandler(this.label1_Click);
 			// 
+			// dataGridView1
+			// 
+			this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+			this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idProductosColumn,
+            this.descripProductosColumn});
+			this.dataGridView1.Location = new System.Drawing.Point(22, 59);
+			this.dataGridView1.Name = "dataGridView1";
+			this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+			this.dataGridView1.Size = new System.Drawing.Size(424, 446);
+			this.dataGridView1.TabIndex = 2;
+			// 
+			// idProductosColumn
+			// 
+			this.idProductosColumn.HeaderText = "ID";
+			this.idProductosColumn.Name = "idProductosColumn";
+			this.idProductosColumn.ReadOnly = true;
+			// 
+			// descripProductosColumn
+			// 
+			this.descripProductosColumn.HeaderText = "DESCRIPCIÓN";
+			this.descripProductosColumn.Name = "descripProductosColumn";
+			this.descripProductosColumn.ReadOnly = true;
+			// 
 			// Productos
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.Controls.Add(this.dataGridView1);
 			this.Controls.Add(this.label1);
 			this.Name = "Productos";
 			this.Size = new System.Drawing.Size(876, 527);
 			this.Load += new System.EventHandler(this.Productos_Load);
+			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -57,5 +88,8 @@
 
 		#endregion
 		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.DataGridView dataGridView1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn idProductosColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn descripProductosColumn;
 	}
 }
